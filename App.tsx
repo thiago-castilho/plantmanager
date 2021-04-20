@@ -2,7 +2,7 @@ import React from "react";
 import { Text, View } from "react-native";
 import AppLoading from 'expo-app-loading';
 
-import { Welcome } from "./src/pages/Welcome";
+import { UserIdentification } from "./src/pages/UserIdentification";
 import {
   useFonts,
   Jost_400Regular,
@@ -20,6 +20,6 @@ export default function App() {
     return <AppLoading /> // Garante o carregamento das fontes, exibindo a tela de splash
 
   return (
-    <Welcome />
+    <UserIdentification />
   );
 }
