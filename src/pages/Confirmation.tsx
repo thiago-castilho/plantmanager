@@ -6,12 +6,19 @@ import {
 } from 'react-native';
 
 import SafeAreaWrapper from '../components/SafeAreaWrapper';
+import { useNavigation } from '@react-navigation/core';
 import { Button } from '../components/Button';
 
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 
 export function Confirmation() {
+  const navigation = useNavigation();
+
+  function handleMoveOn() {
+    navigation.navigate('PlantSelect');
+  }
+
   return (
     <SafeAreaWrapper>
       <View style={styles.content}>
@@ -24,11 +31,12 @@ export function Confirmation() {
         </Text>
         <Text style={styles.subtitle}>
           Agora vamos começar a cuidar das suas {'\n'}
-          plantinhas com muito cuidado.
+          plantinhas com muito carinho.
         </Text>
         <View style={styles.footer}>
           <Button
             title="Começar"
+            onPress={handleMoveOn}
           />
         </View>
       </View>
