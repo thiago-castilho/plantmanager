@@ -199,7 +199,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingBottom: 5,
     marginLeft: 32,
-    marginVertical: 32
+    marginVertical: 32,
+    paddingRight: 60
   },
   plants: {
     flex: 1,
