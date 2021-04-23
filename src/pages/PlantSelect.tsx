@@ -17,7 +17,6 @@ import api from '../services/api';
 
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
-import { color } from 'react-native-reanimated';
 import { useNavigation } from '@react-navigation/core';
 import { PlantProps } from '../libs/storage';
 
