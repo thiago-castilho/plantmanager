@@ -36,4 +36,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ---
 
-Made with 💜 by [birobirobiro](https://www.birobirobiro.dev) 👋
